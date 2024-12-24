@@ -303,9 +303,10 @@
         padding: 10px 10px;      /* Optional: small side padding */
         max-width: 90%;       /* So it doesn't overflow the card edges */
         color: #333;          /* Matches the rest of your text color */
-        font-size: 16px;      /* Adjust as you like */
+        font-size: 11px;      /* Adjust as you like */
         text-align: center;   /* Centers the paragraph text */
-        font-family: 'Lato', sans-serif; /* Or any font you prefer */
+        font-family: 'Dancing Script', cursive; /* Or any font you prefer */
+        font-weight: bold;
       }
 
     
