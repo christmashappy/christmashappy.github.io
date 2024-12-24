@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Present with Christmas Card</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas></canvas>
+
+  <div class="present">
+    <div class="rotate-container">
+      <div class="bottom"></div>
+      <div class="front"></div>
+      <div class="left"></div>
+      <div class="back"></div>
+      <div class="right"></div>
+
+      <div class="lid">
+        <div class="lid-top"></div>
+        <div class="lid-front"></div>
+        <div class="lid-left"></div>
+        <div class="lid-back"></div>
+        <div class="lid-right"></div>
+      </div>
+    </div>
+
+    <div class="instruction">
+      Click the box to open!
+    </div>
+
+    <!-- The card, hidden at first (scaled to 0) -->
+    <div class="card-container">
+      <div class="christmas-card">
+        <!-- The visible 'front' of the card -->
+        <div class="card-front">
+          <div class="christmas-tree"></div>
+          <div class="ribbon"></div>
+          <div class="star"></div>
+          <div class="balls"></div>
+          <!-- A button to flip the card (no anchor/label) -->
+          <button class="flip-btn">Open Card</button>
+        </div>
+        
+        <!-- The inside content -->
+        <div class="card-inside">
+            <img src="images/julia-card.png" alt="Inside card image"class="card-image"/>
+            <p class="inside-text">
+                Wishing you a wonderful holiday season! May joy and cheer fill your home.
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
