@@ -305,7 +305,7 @@
         color: #333;          /* Matches the rest of your text color */
         font-size: 11px;      /* Adjust as you like */
         text-align: center;   /* Centers the paragraph text */
-        font-family: 'Dancing Script', cursive; /* Or any font you prefer */
+        font-family: 'Dancing Script'; /* Or any font you prefer */
         font-weight: bold;
       }
 
