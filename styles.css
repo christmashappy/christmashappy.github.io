@@ -289,7 +289,7 @@
     z-index: 2;
     position: relative;
     display: block;
-    max-width: 90%; /* Adjust to control image size inside card */
+    max-width: 85%; /* Adjust to control image size inside card */
     margin: 10px auto 0 auto; /* Center horizontally, add top margin */
     border: 2px solid #fff; /* Optional styling, remove if undesired */
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -303,9 +303,9 @@
         padding: 10px 10px;      /* Optional: small side padding */
         max-width: 90%;       /* So it doesn't overflow the card edges */
         color: #333;          /* Matches the rest of your text color */
-        font-size: 11px;      /* Adjust as you like */
+        font-size: 10px;      /* Adjust as you like */
         text-align: center;   /* Centers the paragraph text */
-        font-family: 'Dancing Script'; /* Or any font you prefer */
+        font-family: 'Brush Script MT', cursive; /* Or any font you prefer */
         font-weight: bold;
       }
 
